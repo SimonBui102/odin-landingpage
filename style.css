@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+
+.placeholder {
+    background: rgb(163, 163, 163);
+    width: 480px;
+    height: 200px;
+    border-radius: 2px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    text-align: center;
+
+  }
+
+
+  .footer {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow:0;
+
+  }
+
+  .card {
+    border: 3px solid #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+    height:100px;
+    width: 100px;
+
+  }
