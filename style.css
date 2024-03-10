@@ -2,37 +2,203 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap:80px;
     min-height: 100vh;
+    margin:0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+  background-color: #1f2937;
+  padding: 0px 200px 100px 200px; 
+
+}
+
+.header-1{
+  display:flex;
+  flex-direction: column;
+  
+}
+.header-1 .logo-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-1 .logo-links .logo{
+  font-size: 24px;
+  color:#f9faf8;
+  align-self: center;
+}
+
+.header-1 ul{
+  display: flex;
+  gap:20px;
+}
+.header-1 a, .header .content p{
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+  
+}
+
+.header-1 li{
+  list-style-type: none;
+}
+
+.header-1 .content{
+  display:flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 100px;
+
+ 
+
+}
+
+.header-1 .content h1{
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin: 0px;
+}
+
+.header-1 .content .text{
+  
+  max-width: 500px;
+  flex-grow: 1;
+
 }
 
 
+
+
 .placeholder {
-    background: rgb(163, 163, 163);
+    background: rgb(125, 118, 136);
+    color: #f9faf8;
     width: 480px;
     height: 200px;
-    border-radius: 2px;
+    border-radius: 1px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+
+  }
+
+  button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 4px 20px;
+  }
+
+  .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
+    gap:80px;
+ 
+  }
+
+
+  .body .title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+
+  }
+  .body .title h3 {
+    margin:0px;
+  }
+
+  .body .information{
+    display: flex;
+    gap: 50px;
+  }
+
+  .body .card-container{
+    max-width: 156px;
     text-align: center;
 
   }
 
 
+
+
+  .body .card {
+    border: 3px solid #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+    height:150px;
+    width: 150px;
+
+  }
+
+  .body .quote-container{
+    background-color: #e5e7eb;
+    min-height: 300px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 400px;
+  }
+
+
+  .body .quote-container .quote-author{
+    align-self: end;
+    font-weight: 900;
+    color: #1f2937;
+  }
+
+  .body .call-to-action{
+    background-color: #3882f6;
+    min-height: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+  }
+
+  .body .call-to-action .text{
+    min-width: 800px;
+    color: #f9faf8;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .call-to-action p {
+
+    margin: 0;
+    color: #e2e2e2;
+  }
+
+  .call-to-action button{
+    border: 2px solid #e2e2e2;;
+    border-radius: 4px;
+  }
+
+
+
+
+
   .footer {
     height: 72px;
-    background: #eee;
-    color: darkmagenta;
+    background: #1f2937;
+    color: #f9faf8;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-grow:0;
-
-  }
-
-  .card {
-    border: 3px solid #3882f6;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 8px;
-    height:100px;
-    width: 100px;
 
   }
